@@ -21,7 +21,6 @@ using UnityEngine;
  */
 public class GravGun : MonoBehaviour
 {
-    /// <summary>The rigidbody we are currently holding</summary>
     private new Rigidbody rigidbody;
 
     #region Held Object Info
@@ -101,7 +100,7 @@ public class GravGun : MonoBehaviour
 
             if (Input.GetKey(KeyCode.R))
             {
-                rotationInput += new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
+                //rotationInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
             }
         }
 
@@ -119,7 +118,7 @@ public class GravGun : MonoBehaviour
             Ray ray = CenterRay();
 
             // Rotate the object to remain consistent with any changes in player's rotation
-            //rigidbody.MoveRotation(Quaternion.Euler(rotationDifferenceEuler + transform.rotation.eulerAngles));
+            rigidbody.MoveRotation(Quaternion.Euler(rotationDifferenceEuler + transform.rotation.eulerAngles));
 
             // Get the destination point for the point on the object we grabbed
             Vector3 holdPoint = ray.GetPoint(currentGrabDistance);
@@ -143,7 +142,7 @@ public class GravGun : MonoBehaviour
             Vector3 toDestination = centerDestination - rigidbody.transform.position;
 
             // Calculate force
-            Vector3 force = toDestination / Time.fixedDeltaTime;
+            Vector3 force = toDestination / Time.maximumDeltaTime;
 
             // Remove any existing velocity and add force to move to final position
             rigidbody.velocity = Vector3.zero;
