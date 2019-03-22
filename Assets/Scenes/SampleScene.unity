@@ -16546,7 +16546,6 @@ GameObject:
   - component: {fileID: 662265258}
   - component: {fileID: 662265257}
   - component: {fileID: 662265256}
-  - component: {fileID: 662265260}
   m_Layer: 0
   m_Name: Pickup (4)
   m_TagString: Untagged
@@ -16575,7 +16574,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662265254}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21d705e4feef1a40b69ff30750120a9, type: 3}
   m_Name: 
@@ -16638,22 +16637,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662265254}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &662265260
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662265254}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &662980824 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 102394, guid: c925872ce3bfa384589bf34b953d5a65,
@@ -29841,7 +29824,6 @@ GameObject:
   - component: {fileID: 1137445910}
   - component: {fileID: 1137445909}
   - component: {fileID: 1137445908}
-  - component: {fileID: 1137445912}
   m_Layer: 0
   m_Name: Pickup (3)
   m_TagString: Untagged
@@ -29870,7 +29852,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137445906}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21d705e4feef1a40b69ff30750120a9, type: 3}
   m_Name: 
@@ -29933,22 +29915,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137445906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &1137445912
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137445906}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1138265844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 102310, guid: c925872ce3bfa384589bf34b953d5a65,
@@ -43336,7 +43302,6 @@ GameObject:
   - component: {fileID: 1641044668}
   - component: {fileID: 1641044667}
   - component: {fileID: 1641044666}
-  - component: {fileID: 1641044670}
   m_Layer: 0
   m_Name: Pickup (2)
   m_TagString: Untagged
@@ -43365,7 +43330,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641044664}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21d705e4feef1a40b69ff30750120a9, type: 3}
   m_Name: 
@@ -43428,22 +43393,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641044664}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &1641044670
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641044664}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1641281070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 105470, guid: c925872ce3bfa384589bf34b953d5a65,
@@ -44191,7 +44140,6 @@ GameObject:
   - component: {fileID: 1668280296}
   - component: {fileID: 1668280295}
   - component: {fileID: 1668280294}
-  - component: {fileID: 1668280298}
   m_Layer: 0
   m_Name: Pickup (1)
   m_TagString: Untagged
@@ -44220,7 +44168,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668280292}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21d705e4feef1a40b69ff30750120a9, type: 3}
   m_Name: 
@@ -44283,22 +44231,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668280292}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &1668280298
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1668280292}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1668427316 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 101260, guid: c925872ce3bfa384589bf34b953d5a65,
@@ -47434,6 +47366,7 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 0}
 =======
     m_TransformParent: {fileID: 1997572124}
@@ -47441,6 +47374,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 1602784106}
 >>>>>>> parent of 30addf3... adjust scripts
+=======
+    m_TransformParent: {fileID: 1602784106}
+>>>>>>> parent of 7a1faea... update scene
     m_Modifications:
     - target: {fileID: 100002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_Name
@@ -47450,14 +47386,19 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8.319
+=======
+      value: -0.64900047
+>>>>>>> parent of 7a1faea... update scene
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -112.15
+      value: -0.16999972
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 1137.01
 =======
       value: 10.151757
@@ -47477,6 +47418,9 @@ PrefabInstance:
 =======
       value: 0.88000464
 >>>>>>> parent of 30addf3... adjust scripts
+=======
+      value: 0.88000464
+>>>>>>> parent of 7a1faea... update scene
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_LocalRotation.x
@@ -47496,7 +47440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
