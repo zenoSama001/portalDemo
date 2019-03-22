@@ -47367,6 +47367,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 0}
 =======
     m_TransformParent: {fileID: 1997572124}
@@ -47374,6 +47375,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 1602784106}
 >>>>>>> parent of 30addf3... adjust scripts
+=======
+    m_TransformParent: {fileID: 1602784106}
+>>>>>>> parent of 7a1faea... update scene
 =======
     m_TransformParent: {fileID: 1602784106}
 >>>>>>> parent of 7a1faea... update scene
@@ -47387,7 +47391,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8.319
+=======
+      value: -0.64900047
+>>>>>>> parent of 7a1faea... update scene
 =======
       value: -0.64900047
 >>>>>>> parent of 7a1faea... update scene
@@ -47398,6 +47406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be7e71e80114c274eb74b4ba942adf69, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
 <<<<<<< HEAD
       value: 1137.01
 =======
@@ -47418,6 +47427,9 @@ PrefabInstance:
 =======
       value: 0.88000464
 >>>>>>> parent of 30addf3... adjust scripts
+=======
+      value: 0.88000464
+>>>>>>> parent of 7a1faea... update scene
 =======
       value: 0.88000464
 >>>>>>> parent of 7a1faea... update scene
