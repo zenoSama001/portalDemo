@@ -51,7 +51,11 @@ public class GravGun : MonoBehaviour
 
     void Update()
     {
-        if (!Input.GetMouseButton(0))
+        if (this.gameObject.activeSelf == false)
+        {
+            return;
+        }
+        if (!Input.GetKey("e"))
         {
             // We are not holding the mouse button. Release the object and return before checking for a new one
 
